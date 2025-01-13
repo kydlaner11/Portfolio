@@ -12,22 +12,22 @@ export const EXPERIENCES = [
     year: "January 2024 - Agustus 2024",
     role: "[Intern] Front End Developer",
     company: "D-Net",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
+    description: `Developed responsive web applications using React.js with Ant Design. Assisted in designing intuitive user interfaces and enhancing user experiences for enterprise systems. Collaborated with backend developers to integrate frontend components with RESTful APIs.`,
     technologies: ["Javascript", "React.js", "Docker"],
   },
   {
     year: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
+    role: "Freelance WordPress Developer",
+    company: "Sinar Abadi Plastik",
+    description: `Designed and customized website using WordPress and CMS solutions. Integrated SEO best practices to improve website visibility and search engine rankings.   Enhanced website performance by optimizing frontend assets and improving page load times.`,
+    technologies: ["CMS", "Wordpress", "SEO"],
   },
   {
     year: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
+    role: "Assistant Graphic Designer",
+    company: "Cv. Almic Putera Dayu",
+    description: `Assisted graphic designers in transforming verbal communication into engaging visual content. Consistently applied creative thinking, generating at least two new ideas or concepts weekly. Estimated the time required to complete tasks.`,
+    technologies: ["Trello", "Figma", "Photoshop"],
   },
   // {
   //   year: "2020 - 2021",
@@ -40,7 +40,7 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "Aplikasi RMA",
+    title: "RMA App",
     image: project1,
     description:
       "A fully functional e-commerce.",
@@ -48,7 +48,7 @@ export const PROJECTS = [
     link: "https://rma-app.vercel.app/"
   },
   {
-    title: "Aplikasi RyApp",
+    title: "RyApp",
     image: project2,
     description:
       "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
@@ -61,13 +61,13 @@ export const PROJECTS = [
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["HTML", "CSS", "React", "Bootstrap"],
   },
-  {
-    title: "Blogging Platform",
-    image: project4,
-    description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
-  },
+  // {
+  //   title: "Blogging Platform",
+  //   image: project4,
+  //   description:
+  //     "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
+  //   technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+  // },
 ];
 
 export const CONTACT = {

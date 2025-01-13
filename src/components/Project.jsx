@@ -9,7 +9,7 @@ const Project = () => {
       <p className="mt-2 mb-16 text-center bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-xl tracking-tight text-transparent lg:mt-1 lg:text-xl">
         My Portfolio Highlights
       </p>
-      <div className="flex justify-center mb-16">
+      {/* <div className="flex justify-center mb-16">
         <button className="px-4 py-2 bg-purple-600 hover:bg-purple-500 text-white rounded-full mr-4">
           All
         </button>
@@ -19,7 +19,7 @@ const Project = () => {
         <button className="px-4 py-2 text-gray-400 hover:text-white rounded-full">
           Mobile
         </button>
-      </div>
+      </div> */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 px-4 sm:px-0">
       {PROJECTS.map((project, index) => (
         <div

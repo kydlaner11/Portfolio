@@ -3,6 +3,8 @@ import profilePic from '../assets/foto.jpg'
 import {  motion } from 'framer-motion'
 
 
+const fileUrl = "/public/files/CV MICKAEL RENALDY.pdf"
+
 const container = (delay) => ({
   hidden: { x:-100, opacity: 0 },
   visible: {
@@ -25,7 +27,7 @@ const Hero = () => {
             <motion.span variants={container(0.5)} initial="hidden" animate="visible" className="bg-black bg-clip-text text-3xl tracking-tight text-transparent">Hei! I am Mickael Renaldy </motion.span>
             <motion.p variants={container(1)} initial="hidden" animate="visible" className='my-2 py-6 max-w-xl font-extralight tracking-tighter text-xl'>{HERO_CONTENT}</motion.p>
             <div className="flex flex-col items-start  pb-4 gap-3 lg:flex-row ">
-              <motion.a variants={container(1.5)} initial="hidden" animate="visible" className="px-6 py-3 mr-4 text-lg font-semibold text-white bg-black border-2 border-black rounded-lg transition-all duration-300 hover:bg-gray-950 hover:scale-105" href="#contact">Download CV</motion.a>
+              <motion.a variants={container(1.5)} initial="hidden" animate="visible" className="px-6 py-3 mr-4 text-lg font-semibold text-white bg-black border-2 border-black rounded-lg transition-all duration-300 hover:bg-gray-950 hover:scale-105" href={fileUrl}>Download CV</motion.a>
               <motion.a variants={container(1.5)} initial="hidden" animate="visible" className="px-6 py-3  text-lg font-semibold text-black border-2 border-black rounded-lg transition-all duration-300 hover:bg-black hover:text-white hover:scale-105" href="#project">View Project</motion.a>
             </div>
           </div>
