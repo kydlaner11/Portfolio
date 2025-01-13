@@ -1,10 +1,8 @@
 import { HERO_CONTENT } from '../constants'
-// import profilePic from '../assets/foto.jpg'
+import profilePic from '../assets/Foto.jpg'
+import fileUrl from '../assets/CV MICKAEL RENALDY.pdf'
 import {  motion } from 'framer-motion'
 
-
-const fileUrl = "/public/files/CV MICKAEL RENALDY.pdf"
-const profilePic = "/public/files/Foto.jpg"
 
 const container = (delay) => ({
   hidden: { x:-100, opacity: 0 },
