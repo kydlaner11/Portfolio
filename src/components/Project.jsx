@@ -35,12 +35,14 @@ const Project = () => {
           </div>
           <div className="p-4 flex justify-between items-center">
             <h6 className="text-lg font-semibold text-black">{project.title}</h6>
-            <button
-              onClick={() => window.open(project.link, "_blank", "noopener,noreferrer")}
-              className="flex items-center gap-1 underline text-gray-400 hover:text-black"
-            >
-              Project site
-            </button>
+            {project.link && (
+              <button
+                onClick={() => window.open(project.link, "_blank", "noopener,noreferrer")}
+                className="flex items-center gap-1 underline text-gray-400 hover:text-black"
+              >
+                Project site
+              </button>
+            )}
           </div>
         </div>
       ))}
