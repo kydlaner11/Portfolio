@@ -4,7 +4,7 @@ import Experiences from "./components/Experiences"
 import Hero from "./components/Hero"
 import Navbar from "./components/Navbar"
 import Project from "./components/Project"
-import Cta from "./components/cta"
+import Cta from "./components/Call"
 import Technologies from "./components/Technologies"
 
 

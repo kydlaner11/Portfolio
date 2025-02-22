@@ -1,6 +1,6 @@
 
 
-const Cta = () => {
+const Call = () => {
   return (
     <div className="py-24">
       <div className="bg-orange-400 text-black py-8 px-6 flex flex-col md:flex-row justify-between items-center">
@@ -26,4 +26,4 @@ const Cta = () => {
   );
 };
 
-export default Cta;
+export default Call;
