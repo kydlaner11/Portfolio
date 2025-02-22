@@ -1,5 +1,5 @@
 import { HERO_CONTENT } from '../constants'
-import profilePic from '../assets/Foto2.png'
+import profilePic from '../assets/foto3.png'
 import fileUrl from '../assets/CV MICKAEL RENALDY.pdf'
 import {  motion } from 'framer-motion'
 
