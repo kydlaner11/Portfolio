@@ -1,7 +1,7 @@
 import project1 from "../assets/projects/project-1.png";
-import project2 from "../assets/projects/Ryapp.jpg";
-import project3 from "../assets/projects/Jurnal Warung.jpg";
-import project4 from "../assets/projects/Bursopuri App.jpg";
+import project2 from "../assets/projects/project-5.jpg";
+import project3 from "../assets/projects/project-6.jpg";
+import project4 from "../assets/projects/project-7.jpg";
 
 export const HERO_CONTENT = `I’m from Indonesia and have 3+ years of experience as a Front-End Developer. I’ve worked on an RMA system at PT. Dutakom Wibawa Putra (D-NET) and freelanced as a WordPress Developer for CV. Usaha Jaya, improving website performance and SEO. Beyond development, I have experience in graphic design and digital marketing. I’m proficient in JavaScript, React.js, Next.js, Express, PHP, and Laravel, with a strong UI/UX foundation. Excited to collaborate and bring creative solutions—let’s build something great together!`;
 
